@@ -94,16 +94,22 @@ extension ViewController {
             cell.telButton.isHidden = true
         }
         cell.telButton.addTarget(self, action: #selector(openCall), for: .touchUpInside)
+       
+       // cell.haritaButton.addTarget(self, action: #selector(openMap), for: .touchUpInside)
         return cell
         
     }
+    
     @objc func openCall(){
         if let url = URL(string: "tel:\(telno)"),UIApplication.shared.canOpenURL(url) {
             UIApplication.shared.open(url, options: [:], completionHandler: nil)
         }
         
     }
-    
+    @objc func openMap(){
+        performSegue(withIdentifier: "toMapVC", sender: nil)
+
+    }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return viewModel.dutyPharmacy.value?.data?.count ?? 0
     }

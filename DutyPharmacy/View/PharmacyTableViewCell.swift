@@ -9,6 +9,7 @@ import UIKit
 
 class PharmacyTableViewCell: UITableViewCell {
     
+    @IBOutlet weak var haritaButton: UIButton!
     @IBOutlet weak var telButton: UIButton!
     @IBOutlet weak var adresLabel: UILabel!
     @IBOutlet weak var ilceLabel: UILabel!

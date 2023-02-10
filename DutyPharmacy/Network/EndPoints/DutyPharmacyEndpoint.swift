@@ -39,7 +39,7 @@ extension DutyPharmacyEndpoint: Endpoint {
         case .dutyPharmacy:
             return [
                 "Content-Type":"application/json",
-                "Authorization":"Bearer ERnAkPxWaV5VcHPJl4gPbR9D1PRB6QvDzS6GUBWQeqm0nYpD42XO9EKk1SRb"
+                "Authorization":"Bearer LsV0IKr47juvjhQCEG9YUXMppDIUSl0MN2dQYAGNM6C5eFgqfCWFalmntAho"
               //  "Authorization": "Bearer API KEY \(accessToken)"
             ]
         }
