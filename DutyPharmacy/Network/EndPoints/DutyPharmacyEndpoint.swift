@@ -34,7 +34,7 @@ extension DutyPharmacyEndpoint: Endpoint {
         }
     }
     var header: HTTPHeaders {
-      //  let accessToken = "jNl48pxho7lJvPw2WWizC3MzxYh5VMtu17dLcyeGcjy5LliVT120rkd0g3Lh"
+      //  let accessToken = "xxxxx"
         switch self {
         case .dutyPharmacy:
             return [
