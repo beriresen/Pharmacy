@@ -34,12 +34,12 @@ extension DutyPharmacyEndpoint: Endpoint {
         }
     }
     var header: HTTPHeaders {
-      //  let accessToken = "xxxxx"
+      //  let accessToken = "jNl48pxho7lJvPw2WWizC3MzxYh5VMtu17dLcyeGcjy5LliVT120rkd0g3Lh"
         switch self {
         case .dutyPharmacy:
             return [
                 "Content-Type":"application/json",
-                "Authorization":"Bearer SECRET_API_KEY"
+                "Authorization":"Bearer CjnOeBjEGmXlsmdUFoHLszCSzsKji0MgSpHXzTNKkbgWHyo4sWgHBW3SFROf"
               //  "Authorization": "Bearer API KEY \(accessToken)"
             ]
         }

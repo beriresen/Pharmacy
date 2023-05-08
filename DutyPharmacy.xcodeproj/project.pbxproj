@@ -460,6 +460,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DutyPharmacy/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Nöbetçi Eczaneler";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "kullanıcı konumu almak";
 				INFOPLIST_KEY_NSLocationUsageDescription = "kullanıcı konumu almak";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "kullanıcı konumu almak";
@@ -493,6 +494,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DutyPharmacy/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Nöbetçi Eczaneler";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "kullanıcı konumu almak";
 				INFOPLIST_KEY_NSLocationUsageDescription = "kullanıcı konumu almak";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "kullanıcı konumu almak";

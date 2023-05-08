@@ -24,6 +24,8 @@ class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSourc
         setupViewModelObserver()
         setupTableView()
         setupLocationManager()
+        viewModel.getDutyPharmacy(city: "ankara")  //uygulama telefonda kullanırlırken burası yorum satırı. emülatörde değil
+        
     }
     
     //MARK: LocationManager Kurulum işlemleri

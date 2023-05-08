@@ -49,7 +49,7 @@ class NetworkManager {
                 
                 do {
                     let decoder = JSONDecoder()
-                    //print(String(data: response.data!, encoding: .utf8)!)
+                    print(String(data: response.data!, encoding: .utf8)!)
                     let decodedResponse = try decoder.decode(T.self, from: response.data!)
                     completed(.success(decodedResponse))
                 } catch {
