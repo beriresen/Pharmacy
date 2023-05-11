@@ -1,5 +1,12 @@
 # Nöbetçi Eczaneler
 
+## Kullanılan Teknolojiler<br/>
+* UIKit <br/>
+* Alamofire <br/>
+* MVVM <br/>
+* MapKit <br/>
+* TableViewCell
+
 **Projenin Amacı** <br/>
 
 *Bulunulan ildeki nöbetçi eczaneleri listeleyen ve seçilen eczanenin konumuna götüren, arama yapan Swift UIKit, Alamofire ve MVVM mimarisi ile bireysel olarak geliştirdiğim projem.*<br/>
